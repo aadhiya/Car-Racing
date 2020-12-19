@@ -1,4 +1,4 @@
-var forms,game,player
+var form,game,player
 var gameState=0,playerCount,database,canvas
 
 function setup(){
