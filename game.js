@@ -4,7 +4,7 @@ class Game{
     }
 getState(){
     var gameeref=database.ref('gameState')
-    gameeref.on("value"+function(date){
+    gameeref.on("value",function(data){
         gameState=data.val()
     }) 
 }
